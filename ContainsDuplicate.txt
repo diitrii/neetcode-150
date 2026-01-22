@@ -1,0 +1,9 @@
+1. Contains Duplicate
+Given an integer array "nums", return "true" if any value appears more than once in an array, otherwise return "false"
+My algorithm is done in C++ and displayed as ContainsDuplicate.cpp.
+Description and Logic:
+    Well, the vector is an array that *possibly* has duplicates in it. Knowing a set cannot display duplicates, I make a set called "noDupes"
+    that I know because it is a set, it cannot take any duplicates. I use the insert function to insert the entire vector from beginning to end.
+    The if statement tells me if the sizes are different, well then there must be a duplicate in the algorithm, so return true. If not, return false.
+Time complexity: O(n log n)
+Space complextiy: O(n)
