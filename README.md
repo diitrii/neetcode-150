@@ -8,4 +8,8 @@ Contains Duplicate:
 <br>
 [Text Description](ContainsDuplicate.txt)
 <br>
-
+Valid Anagram:
+<br>
+[CPP File](IsAnagram.cpp)
+<br>
+[Text Description](IsAnagram.txt)
